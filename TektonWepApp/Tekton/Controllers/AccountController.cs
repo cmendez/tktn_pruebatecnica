@@ -23,6 +23,7 @@ namespace Tekton.Controllers
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
+            //WebSecurity.Logout();
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
@@ -37,7 +38,8 @@ namespace Tekton.Controllers
         {
             if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
             {
-                return RedirectToLocal(returnUrl);
+                //return RedirectToLocal(returnUrl);
+                return RedirectToAction("List", "Charla");
             }
 
             // Si llegamos a este punto, es que se ha producido un error y volvemos a mostrar el formulario
@@ -89,7 +91,8 @@ namespace Tekton.Controllers
                     model.UserName = model.UserName.Trim().ToLowerInvariant();
                     WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
                     WebSecurity.Login(model.UserName, model.Password);
-                    return RedirectToAction("Index", "Home");
+                    //return RedirectToAction("Index", "Home");
+                    return RedirectToAction("List", "Charla");
                 }
                 catch (MembershipCreateUserException e)
                 {

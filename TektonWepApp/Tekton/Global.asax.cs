@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using Tekton.App_Start;
+using WebMatrix.WebData;
 
 namespace Tekton
 {
@@ -24,7 +25,7 @@ namespace Tekton
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
-            AutomapperConfig.Configure();
+            AutomapperConfig.Configure();            
         }
     }
 }

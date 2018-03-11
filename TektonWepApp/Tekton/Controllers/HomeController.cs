@@ -9,23 +9,26 @@ namespace Tekton.Controllers
 {
     public class HomeController : Controller
     {
-        private TektonContext db = new TektonContext();
-        private ITektonRepository tektonRepository;
+        //private TektonContext _dbContext = new TektonContext();
+        //private ITektonRepository tektonRepository;
+
+        private static TektonContext _dbContext = new TektonContext();
+        //private static TektonRepository _tektonRepository = new TektonRepository(_dbContext);
 
         public HomeController()
         {
-            this.tektonRepository = new TektonRepository(new TektonContext());
+            //this.tektonRepository = new TektonRepository(new TektonContext());        
         }
 
-        public HomeController(ITektonRepository tektonRepository)
-        {
-            this.tektonRepository = tektonRepository;
-        }
+        //public HomeController(ITektonRepository tektonRepository)
+        //{
+        //    this.tektonRepository = tektonRepository;
+        //}
 
         public ActionResult Index()
         {
-            //return RedirectToAction("List","Charla");
-            return RedirectToAction("List", "Charla");
+            _dbContext.Charlas.Any();
+            return RedirectToAction("Login", "Account");
         }
 
         public ActionResult About()

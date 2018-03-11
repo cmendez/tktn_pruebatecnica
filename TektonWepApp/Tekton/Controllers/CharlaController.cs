@@ -9,39 +9,39 @@ using Tekton.Models;
 using Tekton.Repository;
 using System.Data.Entity.Infrastructure;
 using AutoMapper;
+using Tekton.Filters;
+using WebMatrix.WebData;
 
 namespace Tekton.Controllers
 {
+    [Authorize]
     public class CharlaController : Controller
     {
-        private TektonContext db = new TektonContext();
-        private ITektonRepository tektonRepository;
+        private TektonContext _dbContext = new TektonContext();
+        private ITektonRepository _tektonRepository;
 
         public CharlaController()
         {
-            this.tektonRepository = new TektonRepository(new TektonContext());
+            this._tektonRepository = new TektonRepository(new TektonContext());            
         }
 
         public CharlaController(ITektonRepository tektonRepository)
         {
-            this.tektonRepository = tektonRepository;
+            this._tektonRepository = tektonRepository;
         }
-
-        //
-        // GET: /Product/
 
         public ActionResult Index()
         {
-            return View("List");
+            return RedirectToAction("List", "Charla");
         }
 
         public ActionResult List()
         {
             List<Charla> products = new List<Charla>();
-            
-            if (db.Charlas.Any())
+
+            if (_dbContext.Charlas.Any())
             {
-                return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                return View("List", _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
             }
             else
             {
@@ -49,17 +49,21 @@ namespace Tekton.Controllers
             }            
         }
 
+        //[HttpPost]
         public ActionResult Inscribir(int idCharla)
         {
             //lista de charlas en la BD
-            var charlas = db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList();
+            var charlas = _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList();
 
             if (charlas.Any() && User.Identity.IsAuthenticated)
             {
                 try
                 {
+                    var asistente = _dbContext.Asistentes.First(a => a.CorreoAsistente == User.Identity.Name);
+                    var charlasAsistente = _dbContext.AsistenteCharlas.Where(c => c.IdAsistente == asistente.IdAsistente).Include(s => s.Charla).ToList();
+                    var charla = _dbContext.Charlas.First(c => c.IdCharla == idCharla);
+
                     //validar que persona no este inscrita ya en la charla
-                    var charlasAsistente = db.AsistenteCharlas.Where(c => c.IdAsistente == asistente.IdAsistente).Include(s => s.Charla).ToList();
                     if (charlasAsistente.Exists(c => c.IdCharla == idCharla))
                     {
                         ViewBag.Error = "Usted ya se inscribió a la charla \"" + charla.NombreCharla + "\"";
@@ -67,7 +71,6 @@ namespace Tekton.Controllers
                     }
 
                     //validar que asistente aun pueda inscribirse
-                    var asistente = db.Asistentes.First(a => a.CorreoAsistente == User.Identity.Name);
                     if (!asistente.EsAsistenteVIP && charlasAsistente.Count >= asistente.CantidadMaxCharlas)
                     {
                         ViewBag.Error = "Ya excedió su cantidad máxima de inscripciones.";
@@ -75,7 +78,6 @@ namespace Tekton.Controllers
                     }
 
                     //validar capacidad de charla
-                    var charla = db.Charlas.First(c => c.IdCharla == idCharla);
                     if (charla.CapacidadRestante == 0)
                     {
                         ViewBag.Error = "La charla \"" + charla.NombreCharla + "\"" + "está completa.";
@@ -111,12 +113,12 @@ namespace Tekton.Controllers
                                                    };
 
                     charla.CapacidadRestante = charla.CapacidadRestante - 1;
-                    tektonRepository.ActualizarCharla(charla);
-                    tektonRepository.RegistrarAsistenteCharla(nuevoAsistenteCharla);
-                    tektonRepository.Save();
+                    _tektonRepository.ActualizarCharla(charla);
+                    _tektonRepository.RegistrarAsistenteCharla(nuevoAsistenteCharla);
+                    _tektonRepository.Save();
 
                     ViewBag.Success = "Se ha registrado con éxito su inscripción a la charla \"" + charla.NombreCharla + "\"";
-                    return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                    return View("List", _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
                 }
                 catch (Exception ex)
                 {
@@ -130,7 +132,7 @@ namespace Tekton.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            tektonRepository.Dispose();
+            _tektonRepository.Dispose();
             base.Dispose(disposing);
         }
     }

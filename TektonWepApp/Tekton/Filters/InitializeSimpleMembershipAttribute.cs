@@ -39,6 +39,7 @@ namespace Tekton.Filters
                     }
 
                     WebSecurity.InitializeDatabaseConnection("TektonContext", "UserProfile", "UserId", "UserName", autoCreateTables: true);
+                    WebSecurity.Logout();
                 }
                 catch (Exception ex)
                 {
