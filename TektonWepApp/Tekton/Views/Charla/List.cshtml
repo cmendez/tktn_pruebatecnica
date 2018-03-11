@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Tekton.Models.Charla>
+
+@{
+    ViewBag.Title = "Charlas";
+}
+
+<h2>Lista de charlas disponibles</h2>
+
+<p style="color: green">@ViewBag.Success</p>
+<p style="color: red">@ViewBag.Error</p>
+
+<p>
+    @*@Html.ActionLink("Create a New Product", "CreateVM")*@
+</p>
+<table class="table">
+    <tr>
+        <th>Charla</th>
+        <th>Sala</th>
+        <th>Speaker</th>
+        <th>Horario Inicio</th>
+        <th>Horario Fin</th>
+        <th>Capacidad Restante</th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NombreCharla)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sala.NombreSala)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Speaker.NombreSpeaker)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HorarioInicio)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HorarioFin)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CapacidadRestante)
+        </td>
+        <td>
+            @if (Request.IsAuthenticated) {
+                @Html.ActionLink("Inscribirme", "Inscribir", new { idCharla=item.IdCharla }, new { style="color: blue"})
+            }            
+        </td>
+    </tr>
+}
+
+</table>
+
+<div>
+    @Html.ActionLink("Back to List", "Index", "Home")
+</div>

@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2>@ViewBag.Message</h2>
+            </hgroup>
+            <p>
+                The following project was created using the folling technologies:
+                <ul>
+                    <li>Visual Studio Ultimate 2012</li>
+                    <li>.NET Framework 4.5</li>
+                    <li>C#</li>
+                    <li>MVC4</li>
+                    <li>SQL Server 2008</li>                    
+                    <li>Entity Framework 5</li>
+                    <li>IIS Express</li>
+                    <li>Automapper 4.2.1</li>
+                </ul>
+            </p>
+        </div>
+    </section>
+}
+@*<h2>Instructions:</h2>
+<ol class="round">
+    <li class="one">
+        <h5>Getting Started</h5>
+        Click on <a href="/Product">Products</a>.
+    </li>
+
+    <li class="two">
+        <h5>Display Products List</h5>
+        Choose the list of products you wish to see.
+    </li>
+
+    <li class="three">
+        <h5>Create a New Product</h5>
+        Create a new product by choosing first the type of desired storage (memory or database).
+    </li>
+</ol>
+
+<h5>Important notes:</h5>
+<p>The database is created automatically by using the Code First approach when the project starts up (after the first access to the link "Products in Database Storage").
+    <br />
+    An error can occur if any connection to the database is open (such as using SQL Server Management Studio).
+    <br />
+    Please close any other connection before starting the project again.
+</p>*@

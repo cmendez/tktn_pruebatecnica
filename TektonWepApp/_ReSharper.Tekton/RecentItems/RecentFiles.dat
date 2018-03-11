@@ -1,0 +1,52 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Charla.cs" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Asistente.cs" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:AsistenteCharla.cs" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Speaker.cs" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Charla/f:List.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:HomeController.cs" caret="322" fromTop="12" />
+    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:System.Data.Entity.DropCreateDatabaseIfModelChanges.cs/l:..?..?..?AppData?Local?Temp?7576$EntityFramework.dll$v4.0.30319$NoDynamic?System.Data.Entity.DropCreateDatabaseIfModelChanges.cs" caret="957" fromTop="6" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:App_Start/f:AutomapperConfig.cs" caret="125" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:ITektonRepository.cs" caret="158" fromTop="6" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:TektonRepository.cs" caret="247" fromTop="10" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/f:Global.asax.cs" caret="462" fromTop="10" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Filters/f:InitializeSimpleMembershipAttribute.cs" caret="1068" fromTop="7" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/f:Web.config" caret="873" fromTop="6" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/f:packages.config" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Shared/f:_LoginPartial.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Account/f:Register.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Account/f:Login.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Home/f:Contact.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:TektonContext.cs" caret="3014" fromTop="10" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:CharlaController.cs" caret="5875" fromTop="12" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/f:Web.config" caret="930" fromTop="12" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Speaker.cs" caret="720" fromTop="16" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Asistente.cs" caret="982" fromTop="16" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Sala.cs" caret="779" fromTop="19" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Home/f:Index.cshtml" caret="1744" fromTop="13" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:AsistenteCharla.cs" caret="414" fromTop="14" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Account/f:Login.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Shared/f:_Layout.cshtml" caret="1082" fromTop="15" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Account/f:Register.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/f:Global.asax.cs" caret="462" fromTop="16" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Filters/f:InitializeSimpleMembershipAttribute.cs" caret="1666" fromTop="22" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:AccountModels.cs" caret="2251" fromTop="15" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Account/f:_ChangePasswordPartial.cshtml" caret="126" fromTop="5" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:AccountController.cs" caret="2538" fromTop="14" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Models/f:Charla.cs" caret="551" fromTop="9" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Views/d:Charla/f:List.cshtml" caret="726" fromTop="13" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:ITektonRepository.cs" caret="101" fromTop="4" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:TektonRepository.cs" caret="141" fromTop="6" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Repository/f:TektonContext.cs" caret="849" fromTop="11" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:HomeController.cs" caret="382" fromTop="13" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:App_Start/f:AutomapperConfig.cs" caret="382" fromTop="18" />
+    <File id="4CFBBD57-A0AD-4C84-8191-D8DBA03266AB/d:Controllers/f:CharlaController.cs" caret="5618" fromTop="18" />
+  </RecentEdits>
+</RecentFiles>

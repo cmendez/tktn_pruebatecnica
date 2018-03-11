@@ -1,0 +1,296 @@
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Webshop.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Webshop.pdb
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\AutoMapper.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.Core.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\EntityFramework.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Data.Edm.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Data.OData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Spatial.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.OData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.WebHost.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Razor.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\WebGrease.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\WebMatrix.Data.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\WebMatrix.WebData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\AutoMapper.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\EntityFramework.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Net.Http.Formatting.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.WebHost.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Razor.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\WebMatrix.Data.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\WebMatrix.WebData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.Core.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Web.Http.OData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Data.Edm.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\Microsoft.Data.OData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\System.Spatial.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\EntityFramework.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Http.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\WebMatrix.Data.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\WebMatrix.WebData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\de\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\es\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\fr\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\it\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ja\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ko\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\ru\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\obj\Debug\Tekton.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\obj\Debug\Webshop.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop\Webshop\obj\Debug\Webshop.pdb
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Webshop.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Webshop.pdb
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\AutoMapper.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.Core.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\EntityFramework.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Data.Edm.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Data.OData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Spatial.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.OData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.WebHost.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Razor.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\WebGrease.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\WebMatrix.Data.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\WebMatrix.WebData.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\AutoMapper.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\EntityFramework.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Net.Http.Formatting.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.WebHost.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Razor.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\WebMatrix.Data.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\WebMatrix.WebData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.Core.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Web.Http.OData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Data.Edm.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\Microsoft.Data.OData.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\System.Spatial.xml
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\EntityFramework.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Http.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\WebMatrix.Data.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\WebMatrix.WebData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\de\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\es\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\fr\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\it\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ja\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ko\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\ru\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\obj\Debug\Tekton.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\obj\Debug\Webshop.dll
+C:\Users\Usuario\Documents\Visual Studio 2012\Projects\Sana\Webshop - copia\Tekton\obj\Debug\Webshop.pdb
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Webshop.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Webshop.pdb
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Antlr3.Runtime.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\AutoMapper.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.Core.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\EntityFramework.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Data.Edm.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Data.OData.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Newtonsoft.Json.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Spatial.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Helpers.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Http.OData.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Mvc.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Optimization.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Razor.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.Razor.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\WebGrease.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\WebMatrix.Data.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\WebMatrix.WebData.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\AutoMapper.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\EntityFramework.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Newtonsoft.Json.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Helpers.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Mvc.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Razor.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.WebPages.Razor.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\WebMatrix.Data.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\WebMatrix.WebData.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.Core.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Web.Http.OData.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Data.Edm.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\Microsoft.Data.OData.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\System.Spatial.xml
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\EntityFramework.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.Razor.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\WebMatrix.Data.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\WebMatrix.WebData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Web.Http.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\de\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\es\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\fr\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\it\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ja\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ko\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\ru\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\obj\Debug\Webshop.dll
+C:\Users\Christian\Documents\Otros Proyectos - MRB, Bitmap, S.A.D\Tekton\Tekton\obj\Debug\Webshop.pdb
