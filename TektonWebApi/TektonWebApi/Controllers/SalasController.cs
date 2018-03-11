@@ -8,6 +8,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using Tekton.Repository;
 using Newtonsoft.Json;
+using Tekton.DTO;
 
 namespace TektonWebApi.Controllers
 {
@@ -26,23 +27,23 @@ namespace TektonWebApi.Controllers
             this.tektonRepository = tektonRepository;
         }
 
-        [System.Web.Http.HttpGet]
-        public string asignarCapacidad(int idSala, int capacidad)
+        [System.Web.Http.HttpPost]
+        public string asignarCapacidad(SalaDTO salaDTO)
         {
             string parsedJson = String.Empty;
 
-            if (capacidad <= 0)
+            if (salaDTO.Capacidad <= 0)
             {
                 parsedJson = "Error: La capacidad no puede ser menor igual a 0";
                 return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
             }
 
-            var sala = db.Salas.First(c => c.IdSala == idSala);
+            var sala = db.Salas.FirstOrDefault(c => c.IdSala == salaDTO.IdSala);
             if (sala != null)
             {
                 try
                 {
-                    sala.Capacidad = capacidad;
+                    sala.Capacidad = salaDTO.Capacidad;
                     tektonRepository.ActualizarSala(sala);
                     tektonRepository.Save();
                 }
@@ -52,12 +53,12 @@ namespace TektonWebApi.Controllers
                     return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
                 }
 
-                parsedJson = "La capacidad de la sala " + idSala + " fue actualizada con éxito";
+                parsedJson = "La capacidad de la sala " + salaDTO.IdSala + " fue actualizada con éxito";
                 return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
             }
             else
             {
-                parsedJson = "No existe la sala con id: " + idSala;
+                parsedJson = "No existe la sala con id: " + salaDTO.IdSala;
                 return JsonConvert.SerializeObject(parsedJson, Formatting.Indented);
             }
         }

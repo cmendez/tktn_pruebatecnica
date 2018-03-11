@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Data;
 using Tekton.Models;
-//using Tekton.Models;
 
 namespace Tekton.Repository
 {
@@ -15,16 +14,6 @@ namespace Tekton.Repository
         {
             this.context = context;
         }
-
-        //public void RegistrarAsistenteCharla(AsistenteCharla nuevoAsistenteCharla)
-        //{
-        //    context.AsistenteCharlas.Add(nuevoAsistenteCharla);
-        //}
-
-        //public void ActualizarCharla(Charla charla)
-        //{
-        //    context.Entry(charla).State = EntityState.Modified;
-        //}
 
         public void ActualizarSala(Sala sala)
         {

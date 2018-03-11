@@ -49,41 +49,37 @@ namespace Tekton.Controllers
             }            
         }
 
-        //[ValidateAntiForgeryToken]
         public ActionResult Inscribir(int idCharla)
         {
-            if(User.Identity.IsAuthenticated)
+            //lista de charlas en la BD
+            var charlas = db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList();
+
+            if (charlas.Any() && User.Identity.IsAuthenticated)
             {
                 try
                 {
-                    var asistente = db.Asistentes.First(a => a.CorreoAsistente ==
-                                                        User.Identity.Name);
-
-                    var charlasAsistente = db.AsistenteCharlas.Where(c => c.IdAsistente ==
-                                                                    asistente.IdAsistente).Include(s =>
-                                                                        s.Charla).ToList();
-
-                    var charla = db.Charlas.First(c => c.IdCharla == idCharla);
-
                     //validar que persona no este inscrita ya en la charla
+                    var charlasAsistente = db.AsistenteCharlas.Where(c => c.IdAsistente == asistente.IdAsistente).Include(s => s.Charla).ToList();
                     if (charlasAsistente.Exists(c => c.IdCharla == idCharla))
                     {
                         ViewBag.Error = "Usted ya se inscribió a la charla \"" + charla.NombreCharla + "\"";
-                        return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                        return View("List", charlas);
                     }
 
                     //validar que asistente aun pueda inscribirse
+                    var asistente = db.Asistentes.First(a => a.CorreoAsistente == User.Identity.Name);
                     if (!asistente.EsAsistenteVIP && charlasAsistente.Count >= asistente.CantidadMaxCharlas)
                     {
                         ViewBag.Error = "Ya excedió su cantidad máxima de inscripciones.";
-                        return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                        return View("List", charlas);
                     }
 
-                    //validar capacidad de sala
+                    //validar capacidad de charla
+                    var charla = db.Charlas.First(c => c.IdCharla == idCharla);
                     if (charla.CapacidadRestante == 0)
                     {
                         ViewBag.Error = "La charla \"" + charla.NombreCharla + "\"" + "está completa.";
-                        return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                        return View("List", charlas);
                     }
 
                     //validar conflicto de horarios
@@ -99,12 +95,11 @@ namespace Tekton.Controllers
                                 (charla.HorarioFin.CompareTo(charlaAsistente.Charla.HorarioInicio) >= 0)
                                 &&
                                 (charla.HorarioFin.CompareTo(charlaAsistente.Charla.HorarioFin) <= 0)
-                            )
-                            )
+                            ))
                         {
                             ViewBag.Error = "Hay un conflicto de horarios con la charla \"" +
-                                            charlaAsistente.Charla.NombreCharla + "\"";
-                            return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                                            charlaAsistente.Charla.NombreCharla + " a la cual usted ya está inscrito.\"";
+                            return View("List", charlas);
                         }
                     }
 
@@ -120,160 +115,18 @@ namespace Tekton.Controllers
                     tektonRepository.RegistrarAsistenteCharla(nuevoAsistenteCharla);
                     tektonRepository.Save();
 
-                    ViewBag.Success = "Se ha registrado con éxito su inscripción a la charla \"" +
-                                            charla.NombreCharla + "\"";
+                    ViewBag.Success = "Se ha registrado con éxito su inscripción a la charla \"" + charla.NombreCharla + "\"";
                     return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
                 }
                 catch (Exception ex)
                 {
                     ViewBag.Error = "Ocurrió un error al intentar inscribirse.";
-                    return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+                    return View("List", charlas);
                 }
             }
 
-            return View("List", db.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
+            return View("List", charlas);
         }
-
-        //
-        // GET: /Product/Details/5
-
-        //public ViewResult Details(int id)
-        //{
-        //    Product product = tektonRepository.GetProductByID(id);
-        //    return View(product);
-        //}
-
-        ////
-        //// GET: /Product/Create
-
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        //public ActionResult CreateVM()
-        //{
-        //    ViewBag.GetStorageTypesList = TektonSelectLists.GetStorageTypesList();
-        //    return View("CreateVM");
-        //}
-
-        ////
-        //// POST: /Product/Create
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create(Product product)
-        //{
-        //    try
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            tektonRepository.InsertProduct(product);
-        //            tektonRepository.Save();
-        //            return RedirectToAction("Index");
-        //        }
-        //    }
-        //    catch (DataException)
-        //    {
-        //        ModelState.AddModelError(string.Empty, "Unable to save changes.");
-        //    }
-        //    return View(product);
-        //}
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult CreateVM(ProductViewModel productVM)
-        //{
-        //    try
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            Product p = Mapper.Map<Product>(productVM);
-
-        //            if (productVM.StorageTypeSelected.Equals(TektonEnum.StorageType.MemoryStorage.GetHashCode().ToString()))
-        //            {
-        //                TektonMemoryStorage.SaveProductInMemoryStorage(p);
-        //            }
-        //            else if (productVM.StorageTypeSelected.Equals(TektonEnum.StorageType.PersistentStorage.GetHashCode().ToString()))
-        //            {
-        //                tektonRepository.InsertProduct(p);
-        //                tektonRepository.Save();
-        //            }
-
-        //            return View("Success");
-        //        }
-        //    }
-        //    catch (DataException)
-        //    {
-        //        ModelState.AddModelError(string.Empty, "Unable to save changes.");
-        //    }
-        //    return View(productVM);
-        //}
-
-        ////
-        //// GET: /Product/Edit/5
-
-        //public ActionResult Edit(int id)
-        //{
-        //    Product product = tektonRepository.GetProductByID(id);
-        //    return View(product);
-        //}
-
-        ////
-        //// POST: /Product/Edit/5
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Edit(Product product)
-        //{
-        //    try
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            tektonRepository.UpdateProduct(product);
-        //            tektonRepository.Save();
-        //            return RedirectToAction("Index");
-        //        }
-        //    }
-        //    catch (DataException)
-        //    {
-        //        ModelState.AddModelError(string.Empty, "Unable to save changes.");
-        //    }
-        //    return View(product);
-        //}
-
-        ////
-        //// GET: /Product/Delete/5
-
-        //public ActionResult Delete(bool? saveChangesError = false, int id = 0)
-        //{
-        //    if (saveChangesError.GetValueOrDefault())
-        //    {
-        //        ViewBag.ErrorMessage = "Delete failed.";
-        //    }
-        //    Product product = tektonRepository.GetProductByID(id);
-        //    return View(product);
-        //}
-
-        ////
-        //// POST: /Product/Delete/5
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Delete(int id)
-        //{
-        //    try
-        //    {
-        //        Product product = tektonRepository.GetProductByID(id);
-        //        tektonRepository.DeleteProduct(id);
-        //        tektonRepository.Save();
-        //    }
-        //    catch (DataException)
-        //    {
-        //        return RedirectToAction("Delete", new { id = id, saveChangesError = true });
-        //    }
-        //    return RedirectToAction("Index");
-        //}
 
         protected override void Dispose(bool disposing)
         {

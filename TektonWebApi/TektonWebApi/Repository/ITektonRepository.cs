@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Tekton.Models;
-//using Tekton.Models;
 
 namespace Tekton.Repository
 {
