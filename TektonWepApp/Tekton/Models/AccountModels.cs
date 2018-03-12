@@ -79,7 +79,7 @@ namespace Tekton.Models
 
         [Required]
         [DataType(DataType.EmailAddress, ErrorMessage = "No es un correo válido")]
-        [Display(Name = "Usuario")]
+        [Display(Name = "Usuario (Correo)")]
         public string UserName { get; set; }
 
         [Required]
