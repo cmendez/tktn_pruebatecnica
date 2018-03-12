@@ -73,8 +73,13 @@ namespace Tekton.Models
     public class RegisterModel
     {
         [Required]
+        [StringLength(100, ErrorMessage = "El número de caracteres de {0} debe ser al menos {2}.", MinimumLength = 2)]
+        [Display(Name = "Nombre y Apellido")]
+        public string NombreAsistente { get; set; }
+
+        [Required]
         [DataType(DataType.EmailAddress, ErrorMessage = "No es un correo válido")]
-        [Display(Name = "Nombre de usuario")]
+        [Display(Name = "Usuario")]
         public string UserName { get; set; }
 
         [Required]

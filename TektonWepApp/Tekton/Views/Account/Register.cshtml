@@ -16,6 +16,10 @@
         <legend>Formulario de registro</legend>
         <ol>
             <li>
+                @Html.LabelFor(m => m.NombreAsistente)
+                @Html.TextBoxFor(m => m.NombreAsistente)
+            </li>
+            <li>
                 @Html.LabelFor(m => m.UserName)
                 @Html.TextBoxFor(m => m.UserName)
             </li>

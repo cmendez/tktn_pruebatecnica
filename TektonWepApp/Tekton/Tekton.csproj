@@ -187,7 +187,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\OriginalCharlaController.cs" />
     <Compile Include="Controllers\CharlaController.cs" />
+    <Compile Include="Controllers\TestController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Repository\ITektonRepository.cs" />
     <Compile Include="Repository\TektonRepository.cs" />
@@ -318,6 +320,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Charla\List.cshtml" />
     <Content Include="Views\Charla\EmptyList.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

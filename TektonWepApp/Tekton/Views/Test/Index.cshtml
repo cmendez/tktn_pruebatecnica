@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "TEST";
 }
 @section featured {
     <section class="featured">
@@ -9,7 +9,7 @@
                 <h2>@ViewBag.Message</h2>
             </hgroup>
             <p>
-                El presente proyecto se creó utilizando las siguientes tecnologías:
+                The following project was created using the folling technologies:
                 <ul>
                     <li>Visual Studio Ultimate 2012</li>
                     <li>.NET Framework 4.5</li>
@@ -18,7 +18,9 @@
                     <li>SQL Server 2008</li>                    
                     <li>Entity Framework 5</li>
                     <li>IIS Express</li>
+                    <li>Automapper 4.2.1</li>
                 </ul>
+                @ViewBag.Data
             </p>
         </div>
     </section>

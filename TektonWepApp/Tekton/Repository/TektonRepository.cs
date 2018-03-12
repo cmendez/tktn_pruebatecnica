@@ -25,6 +25,11 @@ namespace Tekton.Repository
             context.Entry(charla).State = EntityState.Modified;
         }
 
+        public void RegistrarAsistente(Asistente nuevoAsistente)
+        {
+            context.Asistentes.Add(nuevoAsistente);
+        }
+
         public void Save()
         {
             context.SaveChanges();

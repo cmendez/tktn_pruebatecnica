@@ -10,6 +10,7 @@ using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
 using Tekton.Filters;
 using Tekton.Models;
+using Tekton.Repository;
 
 namespace Tekton.Controllers
 {
@@ -17,6 +18,15 @@ namespace Tekton.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+        private TektonContext _dbContext;
+        private ITektonRepository _tektonRepository;
+
+        public AccountController()
+        {
+            this._dbContext = new TektonContext();
+            this._tektonRepository = new TektonRepository(_dbContext);
+        }
+
         //
         // GET: /Account/Login
 
@@ -88,9 +98,22 @@ namespace Tekton.Controllers
                 // Intento de registrar al usuario
                 try
                 {
+                    //registrar al usuario en la tabla de membership
                     model.UserName = model.UserName.Trim().ToLowerInvariant();
                     WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
                     WebSecurity.Login(model.UserName, model.Password);
+
+                    //registrar al usuario en la tabla de asistentes
+                    Asistente nuevoAsistente = new Asistente() 
+                    {
+                        CorreoAsistente = model.UserName,
+                        NombreAsistente = model.NombreAsistente.Trim(),
+                        EsAsistenteVIP = false,
+                        CantidadMaxCharlas = 3
+                    };
+                    this._tektonRepository.RegistrarAsistente(nuevoAsistente);
+                    this._tektonRepository.Save();
+
                     //return RedirectToAction("Index", "Home");
                     return RedirectToAction("List", "Charla");
                 }

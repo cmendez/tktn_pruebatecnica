@@ -18,9 +18,10 @@ namespace Tekton.Repository
 
       public TektonContext() : base("TektonContext") 
         {
-          this.Configuration.ProxyCreationEnabled = false;
-          this.Configuration.LazyLoadingEnabled = false;
-          Database.SetInitializer(new TektonDBInitializer());
+          // descomentar para localhost, comentar para publicacion Azure (la BD se crea a través de script db.sql)
+          //this.Configuration.ProxyCreationEnabled = false;
+          //this.Configuration.LazyLoadingEnabled = false;
+          //Database.SetInitializer(new TektonDBInitializer());
         }      
    }
 

@@ -12,12 +12,13 @@ namespace Tekton.Controllers
         //private TektonContext _dbContext = new TektonContext();
         //private ITektonRepository tektonRepository;
 
-        private static TektonContext _dbContext = new TektonContext();
+        private TektonContext _dbContext; // = new TektonContext();
         //private static TektonRepository _tektonRepository = new TektonRepository(_dbContext);
 
         public HomeController()
         {
-            //this.tektonRepository = new TektonRepository(new TektonContext());        
+            //this.tektonRepository = new TektonRepository(new TektonContext()); 
+            this._dbContext = new TektonContext();
         }
 
         //public HomeController(ITektonRepository tektonRepository)
@@ -29,20 +30,6 @@ namespace Tekton.Controllers
         {
             _dbContext.Charlas.Any();
             return RedirectToAction("Login", "Account");
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your app description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
         }
     }
 }

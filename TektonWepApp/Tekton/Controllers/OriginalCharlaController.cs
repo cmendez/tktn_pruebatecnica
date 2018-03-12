@@ -15,23 +15,20 @@ using WebMatrix.WebData;
 namespace Tekton.Controllers
 {
     [Authorize]
-    public class CharlaController : Controller
+    public class OriginalCharlaController : Controller
     {
-        //private TektonContext _dbContext = new TektonContext();
-        //private ITektonRepository _tektonRepository;
-        private TektonContext _dbContext;
+        private TektonContext _dbContext = new TektonContext();
         private ITektonRepository _tektonRepository;
 
-        public CharlaController()
+        public OriginalCharlaController()
         {
-            this._dbContext = new TektonContext();
-            this._tektonRepository = new TektonRepository(_dbContext);
+            this._tektonRepository = new TektonRepository(new TektonContext());            
         }
 
-        //public CharlaController(ITektonRepository tektonRepository)
-        //{
-        //    this._tektonRepository = tektonRepository;
-        //}
+        public OriginalCharlaController(ITektonRepository tektonRepository)
+        {
+            this._tektonRepository = tektonRepository;
+        }
 
         public ActionResult Index()
         {
@@ -42,22 +39,14 @@ namespace Tekton.Controllers
         {
             List<Charla> products = new List<Charla>();
 
-            try
+            if (_dbContext.Charlas.Any())
             {
-                if (_dbContext.Charlas.Any())
-                {
-                    return View("List", _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
-                }
-                else
-                {
-                    return View("EmptyList");
-                }
+                return View("List", _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
             }
-            catch (Exception ex)
+            else
             {
-                ViewBag.ErrorAzure = ex.ToString();
                 return View("EmptyList");
-            }
+            }            
         }
 
         //[HttpPost]
@@ -124,9 +113,9 @@ namespace Tekton.Controllers
                                                    };
 
                     charla.CapacidadRestante = charla.CapacidadRestante - 1;
-                    this._tektonRepository.ActualizarCharla(charla);
-                    this._tektonRepository.RegistrarAsistenteCharla(nuevoAsistenteCharla);
-                    this._tektonRepository.Save();
+                    _tektonRepository.ActualizarCharla(charla);
+                    _tektonRepository.RegistrarAsistenteCharla(nuevoAsistenteCharla);
+                    _tektonRepository.Save();
 
                     ViewBag.Success = "Se ha registrado con éxito su inscripción a la charla \"" + charla.NombreCharla + "\"";
                     return View("List", _dbContext.Charlas.Include(s => s.Sala).Include(s => s.Speaker).ToList());
@@ -144,7 +133,7 @@ namespace Tekton.Controllers
 
         protected override void Dispose(bool disposing)
         {
-            this._tektonRepository.Dispose();
+            _tektonRepository.Dispose();
             base.Dispose(disposing);
         }
     }
