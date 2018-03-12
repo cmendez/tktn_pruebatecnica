@@ -16,11 +16,15 @@ namespace TektonWebApi.Controllers
 {
     public class CharlasController : ApiController
     {
-        private static TektonContext _dbContext = new TektonContext();
-        private static TektonRepository _tektonRepository = new TektonRepository(_dbContext);
+        //private static TektonContext _dbContext = new TektonContext();
+        //private static TektonRepository _tektonRepository = new TektonRepository(_dbContext);
+        private TektonContext _dbContext;
+        private ITektonRepository _tektonRepository;
 
         public CharlasController()
         {
+            this._dbContext = new TektonContext();
+            this._tektonRepository = new TektonRepository(_dbContext);
         }
 
         [System.Web.Mvc.HttpPost]

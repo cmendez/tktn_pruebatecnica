@@ -12,7 +12,7 @@ namespace TektonWebApi.BusinessLogic
 {
     public static class TektonBusinessLogic
     {
-        public static string AsignarCapacidad(TektonContext dbContext, TektonRepository tektonRepository, SalaDTO salaDTO)
+        public static string AsignarCapacidad(TektonContext dbContext, ITektonRepository tektonRepository, SalaDTO salaDTO)
         {
             string parsedJson = String.Empty;
 
@@ -47,7 +47,7 @@ namespace TektonWebApi.BusinessLogic
             }
         }
 
-        public static string RegistrarCharla(TektonContext dbContext, TektonRepository tektonRepository, CharlaDTO charlaDTO)
+        public static string RegistrarCharla(TektonContext dbContext, ITektonRepository tektonRepository, CharlaDTO charlaDTO)
         {
             string jsonResponse = String.Empty;
             DateTime horarioInicioDT;

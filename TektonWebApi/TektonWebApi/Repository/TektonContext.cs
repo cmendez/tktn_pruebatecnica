@@ -18,8 +18,8 @@ namespace Tekton.Repository
 
       public TektonContext() : base("TektonContext") 
         {
-          this.Configuration.ProxyCreationEnabled = false;
-          this.Configuration.LazyLoadingEnabled = false;
+          //this.Configuration.ProxyCreationEnabled = false;
+          //this.Configuration.LazyLoadingEnabled = false;
           //Database.SetInitializer(new TektonDBInitializer());
         }      
    }
